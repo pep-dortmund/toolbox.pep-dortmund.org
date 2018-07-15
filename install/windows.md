@@ -49,50 +49,79 @@ Getestet auf Windows 10.
 ### Windows Subsystem for Linux (WSL)
 
 #### Aktivierung des WSL
-Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
-bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
-_Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
-gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche nachdem man einen
-Buchstaben über die Tastatur eingibt.
 
-<img alt="" src="/img/wsl-0.png" style="width: 100%;" />
+<div id='accordion'>
+  <div class='card'>
+    <div class='card-header' id='headingWSLActivation'>
+      <h5 class='mb-0'>
+        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseWSLActivation' aria-expanded='false' aria-controls='collapseWSLActivation'>
+          Installations Anleitung
+        </button>
+      </h5>
+    </div>
+    <div id='collapseWSLActivation' class='collapse' aria-labelledby='headingWSLActivation' data-parent='#accordion'>
+      <span class='card-body' markdown='1'>
+        Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
+        bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
+        _Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
+        gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche nachdem man einen
+        Buchstaben über die Tastatur eingibt.   
 
-Mit einem `Rechtsklick` auf _Windows PowerShell_
-das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_ 
-gestartet werden.
+        <img alt="" src="/img/wsl-0.png" style="width: 100%;" />   
 
-<img alt="" src="/img/wsl-1.png" style="width: 100%;" />
 
-In den meisten Fällen wird das folgende Fenster erscheinen. Dieser kann einfach _Ja_ bestätigt werden.
-Es ist kein Problem, wenn dieses Fenster nicht erscheint.
+        Mit einem `Rechtsklick` auf _Windows PowerShell_
+        das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_ 
+        gestartet werden.   
 
-<img alt="" src="/img/wsl-2.png" style="width: 100%;" />
+        <img alt="" src="/img/wsl-1.png" style="width: 100%;" />   
 
-Nun öffnet sich eine Fenster wie unten zusehen, dies ist die Powershell Konsole.
-Um sicher zugehen, dass eine Powershell mit Administrator-Rechten geöffnet wurde,
-kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
-<img alt="" src="/img/wsl-3.png" style="width: 100%;" />
+        In den meisten Fällen wird das folgende Fenster erscheinen. Dieser kann einfach _Ja_ bestätigt werden.
+        Es ist kein Problem, wenn dieses Fenster nicht erscheint.   
 
-In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
-```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux   
-```
-<img alt="" src="/img/wsl-4.png" style="width: 100%;" />
+        <img alt="" src="/img/wsl-2.png" style="width: 100%;" />   
 
-Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-<img alt="" src="/img/wsl-5.png" style="width: 100%;" />
+        Nun öffnet sich eine Fenster wie unten zusehen, dies ist die Powershell Konsole.
+        Um sicher zugehen, dass eine Powershell mit Administrator-Rechten geöffnet wurde,
+        kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.   
 
-Die darauf folgende Abfrage ob der Computer neugestartet werden soll,
-kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
+        <img alt="" src="/img/wsl-3.png" style="width: 100%;" />   
 
-<img alt="" src="/img/wsl-6.png" style="width: 100%;" />
 
-Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert. 
-Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem 
-Subsystem installiert werden soll.
+        In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
+        und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.   
+        
+        ```
+        Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux   
+        ```   
+        
+        
+        <img alt="" src="/img/wsl-4.png" style="width: 100%;" />   
+
+
+        Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.   
+
+        <img alt="" src="/img/wsl-5.png" style="width: 100%;" />   
+
+
+        Die darauf folgende Abfrage ob der Computer neugestartet werden soll,
+        kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.   
+
+        <img alt="" src="/img/wsl-6.png" style="width: 100%;" />   
+
+
+        Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert. 
+        Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem 
+        Subsystem installiert werden soll.
+      </span>
+    </div>
+  </div>
+</div>
+<br>
+
+
 
 #### Installation der Linux Variante Ubuntu
 
