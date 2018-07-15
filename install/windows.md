@@ -213,62 +213,114 @@ und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
 <img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
 
 
-
 ### Visual Studio Code
+<div id="accordion">  
+  <div class="card">
+    <div class="card-header" id="headingVSCode">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseVSCode" aria-expanded="false" aria-controls="collapseVSCode">
+        Installations Anleitung
+        </button>
+      </h5>
+    </div>
+    <div id="collapseVSCode" class="collapse" aria-labelledby="headingVSCode" data-parent="#accordion">
+        <span class="card-body" markdown="1">
+        Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten 
+        in LaTeX geeignet ist. Drüberhinaus hat dieser auch noch viele weitere Funktionen.
+        Die Installationsdatei kann unter dem folgenden Link heruntergeladen werden:   
 
-Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten 
-in LaTeX geeignet ist. Drüberhinaus hat dieser auch noch viele weitere Funktionen.
-Die Installationsdatei kann unter dem folgenden Link heruntergeladen werden:
+        <br>
+        [Download VSCode](https://code.visualstudio.com/){:target="_blank"}   
+        <br>
 
-[Download VSCode](https://code.visualstudio.com/){:target="_blank"}
+        Auf der Website befindet sich zu diesem Zweck die Schaltfläche _Download for Windows_, welche mit 
+        einem `Linksklick` bedient werden kann.
+        
+        <br>
+        <img alt="" src="/img/vscode-0.png" style="width: 100%;" />
+        <br>
 
-Auf der Website befindet sich zu diesem Zweck die Schaltfläche _Download for Windows_, welche mit 
-einem `Linksklick` bedient werden kann. 
+        Durch einem doppleten `Linksklick` kann die heruntgeladene Datei ausgeführt werdn.
+        Die Installation wird im folgenden Fenster mit einem `Linksklick` auf _Ausführen_ gestartet.
+        
+        <br>
+        <img alt="" src="/img/vscode-1.png" style="width: 100%;" />
+        <br>
 
-<img alt="" src="/img/vscode-0.png" style="width: 100%;" />
+        Vor der Installation kann dieses Fenster entscheiden, welches mit einem `Linksklick` auf _Ja_ bestätigt werden muss.
+        
+        <br>
+        <img alt="" src="/img/vscode-2.png" style="width: 100%;" />
+        <br>
 
-Durch einem doppleten `Linksklick` kann die heruntgeladene Datei ausgeführt werdn.
-Die Installation wird im folgenden Fenster mit einem `Linksklick` auf _Ausführen_ gestartet.
-<img alt="" src="/img/vscode-1.png" style="width: 100%;" />
+        Die Installations-Einstellungen werden durch einen `Linksklick` auf _Weiter_ begonnen.
+        
+        <br>
+        <img alt="" src="/img/vscode-3.png" style="width: 100%;" />
+        <br>
 
-Vor der Installation kann dieses Fenster entscheiden, welches mit einem `Linksklick` auf _Ja_ bestätigt werden muss.
-<img alt="" src="/img/vscode-2.png" style="width: 100%;" />
+        Zunächst muss die _Endnutzervereinbarung_ durch `Linksklick` auf die obere Auswahl und einen weiteren
+        `Linksklick` auf _Weiter_ akzeptiert werden.
+        
+        <br>
+        <img alt="" src="/img/vscode-4.png" style="width: 100%;" />
+        <br>
 
-Die Installations-Einstellungen werden durch einen `Linksklick` auf _Weiter_ begonnen.
-<img alt="" src="/img/vscode-3.png" style="width: 100%;" />
+        Im folgenden Fentster kann der Installationspfad angepasst werden, dies ist jedoch optional und der
+        Standardpfad kann mit einem `Linksklick` auf _Weiter_ verwendet werden.
+        
+        <br>
+        <img alt="" src="/img/vscode-5.png" style="width: 100%;" />
+        <br>
 
-Zunächst muss die _Endnutzervereinbarung_ durch `Linksklick` auf die obere Auswahl und einen weiteren
-`Linksklick` auf _Weiter_ akzeptiert werden.
-<img alt="" src="/img/vscode-4.png" style="width: 100%;" />
 
-Im folgenden Fentster kann der Installationspfad angepasst werden, dies ist jedoch optional und der
-Standardpfad kann mit einem `Linksklick` auf _Weiter_ verwendet werden.
-<img alt="" src="/img/vscode-5.png" style="width: 100%;" />
+        Auch die Standardeinstellung für den Startmenü-Eintrag können einfach mit einem `Linksklick` auf
+        _Weiter_ akzeptiert werden.
+        
+        <br>
+        <img alt="" src="/img/vscode-6.png" style="width: 100%;" />
+        <br>
 
-Auch die Standardeinstellung für den Startmenü-Eintrag können einfach mit einem `Linksklick` auf
-_Weiter_ akzeptiert werden.
-<img alt="" src="/img/vscode-6.png" style="width: 100%;" />
 
-Im Letzten Einstellungsfenster werden alle fünf Optionen durch einen jeweiligen `Linksklick` ausgewählt
-und mit einem weiteren `Linksklick` auf _Weiter_ bestätigt.
-<img alt="" src="/img/vscode-7.png" style="width: 100%;" />
+        Im Letzten Einstellungsfenster werden alle fünf Optionen durch einen jeweiligen `Linksklick` ausgewählt
+        und mit einem weiteren `Linksklick` auf _Weiter_ bestätigt.
+        
+        <br>
+        <img alt="" src="/img/vscode-7.png" style="width: 100%;" />
+        <br>
 
-Im Folgenden können die gemachten Einstellungen noch mal überprüft und die Installation mit einem 
-`Linksklick` auf _Installieren_ gestartet. 
-<img alt="" src="/img/vscode-8.png" style="width: 100%;" />
+        Im Folgenden können die gemachten Einstellungen noch mal überprüft und die Installation mit einem 
+        `Linksklick` auf _Installieren_ gestartet.
+        
+        <br>
+        <img alt="" src="/img/vscode-8.png" style="width: 100%;" />
+        <br>
 
-Nachfolgend wird VSCode installiert.
-<img alt="" src="/img/vscode-9.png" style="width: 100%;" />
+        Nachfolgend wird VSCode installiert.
 
-Mit einem `Linksklick` auf _Fertigstellen_ kann die Installation abgeschlossen werden.
-Ist _Visual Studio Code starten_ ausgewählt, wird im Anschluss VSCode gestartet. 
-<img alt="" src="/img/vscode-10.png" style="width: 100%;" />
+        <br>
+        <img alt="" src="/img/vscode-9.png" style="width: 100%;" />
+        <br>
 
-Beim Öffnen nach der Installation öffnet sich außerdem auch die Website mit der VSCode
-Dokumentation. Letztere kann ohne Bedenken geschlossen werden. Im Fenster von VSCode kann in der unteren rechten Ecke die
-dargestellte Information angezeigt werden. Diese kann durch einen  `Linksklick` auf das `X` geschlossen werden. Genauso können die 
-Tabs, welche am oberen Rand aufgereiht sind, durch einen `Linksklick` auf das `X` geschlossen werden.
-<img alt="" src="/img/vscode-11.png" style="width: 100%;" />
+        Mit einem `Linksklick` auf _Fertigstellen_ kann die Installation abgeschlossen werden.
+        Ist _Visual Studio Code starten_ ausgewählt, wird im Anschluss VSCode gestartet.
+        
+        <br>
+        <img alt="" src="/img/vscode-10.png" style="width: 100%;" />
+        <br>
+
+        Beim Öffnen nach der Installation öffnet sich außerdem auch die Website mit der VSCode
+        Dokumentation. Letztere kann ohne Bedenken geschlossen werden. Im Fenster von VSCode kann in der unteren rechten Ecke die
+        dargestellte Information angezeigt werden. Diese kann durch einen  `Linksklick` auf das `X` geschlossen werden. Genauso können die 
+        Tabs, welche am oberen Rand aufgereiht sind, durch einen `Linksklick` auf das `X` geschlossen werden.
+        
+        <br>
+        <img alt="" src="/img/vscode-11.png" style="width: 100%;" />
+        </span>
+    </div>
+  </div>
+</div>
+<br>
 
 ### ConEmu
 
