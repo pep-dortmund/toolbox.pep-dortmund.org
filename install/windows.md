@@ -125,73 +125,121 @@ Getestet auf Windows 10.
 
 #### Installation der Linux Variante Ubuntu
 
-Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:   
-[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store).
 
-Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
-Dies ist jedoch kein Problem, denn die im Folgenden verwendete Variante ist die Oberste,
-__Ubuntu__. Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
+<div id='accordion'>
+    <div class='card'>
+        <div class='card-header' id='headingWSLUbuntu'>
+            <h5 class='mb-0'>
+                <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseWSLUbuntu' aria-expanded='false' aria-controls='collapseWSLUbuntu'>
+                    Installations Anleitung
+                </button>
+            </h5>
+        </div>
+        <div id='collapseWSLUbuntu' class='collapse' aria-labelledby='headingWSLUbuntu' data-parent='#accordion'>
+            <span class='card-body' markdown='1'>
+                Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:     
+                [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store).   
 
-<img alt="" src="/img/wsl-7.png" style="width: 100%;" />
 
-Es öffnet sich ein neues Fenster des Microsoft-Stores. Durch `Linksklick` auf die
-Schaltfläche _Herunterladen_ wird der Download begonnen.  
 
-<img alt="" src="/img/wsl-8.png" style="width: 100%;" />
+                Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
+                Dies ist jedoch kein Problem, denn die im Folgenden verwendete Variante ist die Oberste,
+                __Ubuntu__. Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.   
 
-Der Download lädt einige 100 Megabyte an Daten herunter und kann einige Minuten in Anspruch nehmen.
-<img alt="" src="/img/wsl-9.png" style="width: 100%;" />
 
-Nachdem der Download abgeschlossen ist, kann die Installation, durch einen `Linksklick`
-auf die Schaltfläche _Starten_ gestartet werden.
+                <img alt="" src="/img/wsl-7.png" style="width: 100%;" />   
 
-<img alt="" src="/img/wsl-10.png" style="width: 100%;" />
 
-Auch diese Installation kann einige Minuten in Anspruch nehmen.
+                Es öffnet sich ein neues Fenster des Microsoft-Stores. Durch `Linksklick` auf die
+                Schaltfläche _Herunterladen_ wird der Download begonnen.   
 
-<img alt="" src="/img/wsl-11.png" style="width: 100%;" />
+
+                <img alt="" src="/img/wsl-8.png" style="width: 100%;" />   
+
+
+                Der Download lädt einige 100 Megabyte an Daten herunter und kann einige Minuten in Anspruch nehmen.   
+
+
+                <img alt="" src="/img/wsl-9.png" style="width: 100%;" />   
+
+
+                Nachdem der Download abgeschlossen ist, kann die Installation, durch einen `Linksklick`
+                auf die Schaltfläche _Starten_ gestartet werden.   
+
+
+                <img alt="" src="/img/wsl-10.png" style="width: 100%;" />   
+
+
+                Auch diese Installation kann einige Minuten in Anspruch nehmen.   
+
+
+                <img alt="" src="/img/wsl-11.png" style="width: 100%;" />
+                
+            </span>
+        </div>
+    </div>
+</div>
+<br>
+
 
 #### Einrichten eines Benutzerskontos
+<div id='accordion'>
+    <div class='card'>
+        <div class='card-header' id='headingWSLUserAccount'>
+            <h5 class='mb-0'>
+                <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseWSLUserAccount' aria-expanded='false' aria-controls='collapseWSLUserAccount'>
+                    Installations Anleitung
+                </button>
+            </h5>
+        </div>
+        <div id='collapseWSLUserAccount' class='collapse' aria-labelledby='headingWSLUserAccount' data-parent='#accordion'>
+            <span class='card-body' markdown='1'>
+                Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
+                das Linux-Betriebssystem einzugeben.   
 
-Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
-das Linux-Betriebssystem einzugeben.
-
-<img alt="" src="/img/wsl-12.png" style="width: 100%;" />
-
-Dieser Linux-Benutzername kann frei gewählt werden. 
-Der Linux-Benutzername __kann, muss aber nicht,__
-mit dem Windows-Benutzernamen übereinstimmen. 
-Die Eingabe des Benutzernames wird mit Drücken der `Enter`-Taste bestätigt.
-
-<img alt="" src="/img/wsl-13.png" style="width: 100%;" />
-
-Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssytem gefragt.
-Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
-Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
-
-<img alt="" src="/img/wsl-14.png" style="width: 100%;" />
-
-Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
-Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
-Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
-so muss dieses erneut (zweimal) eingegeben werden.
-<img alt="" src="/img/wsl-15.png" style="width: 100%;" />
-
-Ist die Installation erfolgreich durchgeführt worden, 
-erhält man die im Screenshot gezeigte Ausgabe.
-Die unterste Zeile besteht aus zwei Teilen.   
-Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen. 
-Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
-Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion 
-mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während 
-des Workshops, im Folgenden wird diese jedoch schon zur
-Installation der benötigten Software verwendet.
-
-<img alt="" src="/img/wsl-16.png" style="width: 100%;" />
+                <img alt="" src="/img/wsl-12.png" style="width: 100%;" />   
 
 
+                Dieser Linux-Benutzername kann frei gewählt werden. 
+                Der Linux-Benutzername __kann, muss aber nicht,__
+                mit dem Windows-Benutzernamen übereinstimmen. 
+                Die Eingabe des Benutzernames wird mit Drücken der `Enter`-Taste bestätigt.   
+
+                <img alt="" src="/img/wsl-13.png" style="width: 100%;" />   
 
 
+                Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssytem gefragt.
+                Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
+                Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.   
+
+                <img alt="" src="/img/wsl-14.png" style="width: 100%;" />   
+
+
+                Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
+                Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
+                Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
+                so muss dieses erneut (zweimal) eingegeben werden.   
+                
+                <img alt="" src="/img/wsl-15.png" style="width: 100%;" />   
+
+
+                Ist die Installation erfolgreich durchgeführt worden, 
+                erhält man die im Screenshot gezeigte Ausgabe.
+                Die unterste Zeile besteht aus zwei Teilen.   
+                Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen. 
+                Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
+                Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion 
+                mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während 
+                des Workshops, im Folgenden wird diese jedoch schon zur
+                Installation der benötigten Software verwendet.   
+
+                <img alt="" src="/img/wsl-16.png" style="width: 100%;" />
+
+            </span>
+        </div>
+    </div>
+</div>
+<br>
 
 
 ### Dateiendungen einschalten
