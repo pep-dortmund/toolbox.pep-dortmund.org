@@ -171,46 +171,71 @@ Installation der benötigten Software verwendet.
 
 ### Sumatra PDF
 
-Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, 
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
-Den Download findet man unter dem folgenden Link.
+<div id='accordion'>
+  <div class='card'>
+    <div class='card-header' id='headingSumatraPDF'>
+      <h5 class='mb-0'>
+        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseSumatraPDF' aria-expanded='false' aria-controls='collapseSumatraPDF'>
+          Installations Anleitung
+        </button>
+      </h5>
+    </div>
+    <div id='collapseSumatraPDF' class='collapse' aria-labelledby='headingSumatraPDF' data-parent='#accordion'>
+      <span class='card-body' markdown='1'>
+        Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
+        Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, 
+        sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
+        Den Download findet man unter dem folgenden Link.   
+        
+        [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}   
+        
+        Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
+        hervorgehobenen Link heruntergeladen werden.   
+  
+        <img alt="" src="/img/sumatra-1.png" style="width: 100%;" />   
+  
 
-[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
+        Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
+        Infolgedessen öffet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
+        die _Optionen_ geöffnet.   
+        
+        <img alt="" src="/img/sumatra-2.png" style="width: 100%;" />   
+        
 
-Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
-hervorgehobenen Link heruntergeladen werden.
+        In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
+        bereits eingetragene Dateipfad ist kann unverändert bleiben. Zum anderen sollten die beiden hervorgehobenen
+        Haken gesetzt sein. Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.   
+        
+        <img alt="" src="/img/sumatra-3.png" style="width: 100%;" />   
+        
 
-<img alt="" src="/img/sumatra-1.png" style="width: 100%;" />
+        Nach einer erfolgreichen Installation wird das folgende Fenster angezeigt. Mit einem `Linksklick`
+        auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.   
+        
+        <img alt="" src="/img/sumatra-5.png" style="width: 100%;" />   
+        
+
+        Vor der Verwendung von Sumatra PDF muss noch Einstellung vorgenommen werden.
+        Dafür wird mit einem `Linksklick` auf _Einstellungen_ und einem weitern `Linksklick` auf _Optionen..._ 
+        das Optionsmenü geöffnet.   
 
 
-Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
-Infolgedessen öffet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
-die _Optionen_ geöffnet. 
+        <img alt="" src="/img/sumatra-6.png" style="width: 100%;" />   
+        
 
-<img alt="" src="/img/sumatra-2.png" style="width: 100%;" />
+        Im Optionsmenü kann Sumatra PDF zum Standard-PDF-Betrachter gemacht werden. Dafür muss zunächst
+        mit einem `Linksklick` auf _Standardmäßig PDF-Dateien mit SumatraPDF öffnen_ diese Einstellung vorgenommen
+        und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.   
+        
+        <img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
+      </span>
+    </div>
+  </div>
+</div>
+<br>
 
-In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben. Zum anderen sollten die beiden hervorgehobenen
-Haken gesetzt sein. Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
 
-<img alt="" src="/img/sumatra-3.png" style="width: 100%;" />
 
-Nach einer erfolgreichen Installation wird das folgende Fenster angezeigt. Mit einem `Linksklick`
-auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
-
-<img alt="" src="/img/sumatra-5.png" style="width: 100%;" />
-
-Vor der Verwendung von Sumatra PDF muss noch Einstellung vorgenommen werden.
-Dafür wird mit einem `Linksklick` auf _Einstellungen_ und einem weitern `Linksklick` auf _Optionen..._ 
-das Optionsmenü geöffnet.
-
-<img alt="" src="/img/sumatra-6.png" style="width: 100%;" />
-
-Im Optionsmenü kann Sumatra PDF zum Standard-PDF-Betrachter gemacht werden. Dafür muss zunächst
-mit einem `Linksklick` auf _Standardmäßig PDF-Dateien mit SumatraPDF öffnen_ diese Einstellung vorgenommen
-und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
-<img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
 
 
 ### Visual Studio Code
