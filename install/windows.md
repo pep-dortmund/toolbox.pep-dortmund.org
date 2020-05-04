@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Windows-Installation
+collapse: True
 ---
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
@@ -51,7 +52,8 @@ Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystem gesehen werden.
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
-### Windows Subsystem for Linux (WSL)
+### Windows Subsystem for Linux (WSL) 
+{: .collapses}
 
 #### Aktivierung des WSL
 Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
@@ -172,6 +174,7 @@ Installation der benötigten Software verwendet.
 
 
 ### Dateiendungen einschalten
+{: .collapses}
 
 Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
 Diese können und sollen aktiviert werden.
@@ -186,6 +189,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 
 
 ### Visual Studio Code
+{: .collapses}
 
 Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
 Drüberhinaus hat dieser auch noch viele weitere Funktionen.
@@ -249,6 +253,7 @@ werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten 
 
 
 ### ConEmu
+{: .collapses}
 
 Das Programm ConEmu stellt einen Ersatz der standard WSL-Kommandozeile dar. Nachvollgend ist die
 Website verlinkt.
@@ -349,6 +354,7 @@ die Windows-Kommandozeile zeigt hier ein _`>`_.
 
 
 ### Sumatra PDF
+{: .collapses}
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
@@ -382,6 +388,7 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 
 
 ### X-Server
+{: .collapses}
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
 um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem
 folgenden Link heruntergeladen werden.
@@ -481,6 +488,7 @@ eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
 
 ### Git, Make und weiteres
+{: .collapses}
 
 Für die Installation der beiden Programme git und und make muss zunächst eine
 Bash-Kommandozeile unter Verwendung von ConEmu geöffnet werden, zum Beispiel
@@ -559,6 +567,7 @@ der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung ka
 
 
 ### Anaconda
+{: .collapses}
 
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
 Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
@@ -635,6 +644,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 
 
 ### Uncertainties
+{: .collapses}
 
 Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationen
 können auf der verlinkten Website gefunden werden.
@@ -653,6 +663,7 @@ pip install uncertainties
 
 
 ### TeXLive
+{: .collapses}
 
 TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weitere Informationen und
 eine detailierte Installationsanleitung können unter den folgenden Links eingesehen werden.
